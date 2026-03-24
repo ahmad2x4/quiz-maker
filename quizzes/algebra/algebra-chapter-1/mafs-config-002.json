@@ -1,0 +1,30 @@
+{
+  "type": "cartesian",
+  "viewBox": {
+    "x": [-2, 6],
+    "y": [-3, 10]
+  },
+  "preserveAspectRatio": true,
+  "elements": [
+    {
+      "type": "plot",
+      "function": "x => x + 3",
+      "color": "#3b82f6",
+      "lineWidth": 2,
+      "label": "y = x + 3"
+    },
+    {
+      "type": "plot",
+      "function": "x => 2*x - 1",
+      "color": "#10b981",
+      "lineWidth": 2,
+      "label": "y = 2x − 1"
+    },
+    {
+      "type": "point",
+      "coordinates": [4, 7],
+      "label": "Intersection",
+      "color": "#ef4444"
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+[
+  {
+    "id": "measurement-001",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "easy",
+    "question": "Convert 350 mm to cm.",
+    "options": ["A) 3.5 cm", "B) 35 cm", "C) 350 cm", "D) 0.35 cm"],
+    "correctAnswer": 1,
+    "explanation": "To convert millimetres to centimetres, divide by 10.\n\n$$350 \\div 10 = 35 \\text{ cm}$$\n\nTherefore, 350 mm = 35 cm.",
+    "points": 1,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": false
+    }
+  },
+  {
+    "id": "measurement-002",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "easy",
+    "question": "Find the area of a rectangle with length 8 cm and width 5 cm.",
+    "formula": "A = l \\times w",
+    "options": ["A) 13 cm²", "B) 26 cm²", "C) 40 cm²", "D) 20 cm²"],
+    "correctAnswer": 2,
+    "explanation": "Using the rectangle area formula:\n\n$$A = l \\times w$$\n$$A = 8 \\times 5$$\n$$A = 40 \\text{ cm}^2$$",
+    "points": 2,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": true,
+      "diagramType": "rectangle",
+      "description": "Rectangle with length 8 cm and width 5 cm"
+    }
+  },
+  {
+    "id": "measurement-003",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "easy",
+    "question": "Calculate the area of a triangle with base 10 cm and height 6 cm.",
+    "formula": "A = \\frac{1}{2}bh",
+    "options": ["A) 60 cm²", "B) 16 cm²", "C) 30 cm²", "D) 20 cm²"],
+    "correctAnswer": 2,
+    "explanation": "Using the triangle area formula:\n\n$$A = \\frac{1}{2} \\times b \\times h$$\n$$A = \\frac{1}{2} \\times 10 \\times 6$$\n$$A = 30 \\text{ cm}^2$$",
+    "points": 2,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": true,
+      "diagramType": "triangle",
+      "description": "Triangle with base 10 cm and height 6 cm"
+    }
+  },
+  {
+    "id": "measurement-004",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "easy",
+    "question": "Find the perimeter of a rectangle with length 12 m and width 7 m.",
+    "options": ["A) 19 m", "B) 38 m", "C) 84 m", "D) 26 m"],
+    "correctAnswer": 1,
+    "explanation": "The perimeter of a rectangle is the sum of all sides:\n\n$$P = 2l + 2w$$\n$$P = 2(12) + 2(7)$$\n$$P = 24 + 14$$\n$$P = 38 \\text{ m}$$",
+    "points": 1,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": false
+    }
+  },
+  {
+    "id": "measurement-005",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "easy",
+    "question": "Calculate the volume of a rectangular prism with length 5 m, width 3 m, and height 4 m.",
+    "formula": "V = l \\times w \\times h",
+    "options": ["A) 12 m³", "B) 60 m³", "C) 20 m³", "D) 47 m³"],
+    "correctAnswer": 1,
+    "explanation": "Using the rectangular prism volume formula:\n\n$$V = l \\times w \\times h$$\n$$V = 5 \\times 3 \\times 4$$\n$$V = 60 \\text{ m}^3$$",
+    "points": 2,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": true,
+      "diagramType": "3d-prism",
+      "description": "Rectangular prism with dimensions 5m × 3m × 4m"
+    }
+  },
+  {
+    "id": "measurement-006",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "easy",
+    "question": "Convert 450 cm to m.",
+    "options": ["A) 0.45 m", "B) 4.5 m", "C) 45 m", "D) 4500 m"],
+    "correctAnswer": 1,
+    "explanation": "To convert centimetres to metres, divide by 100:\n\n$$450 \\div 100 = 4.5 \\text{ m}$$\n\nTherefore, 450 cm = 4.5 m.",
+    "points": 1,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": false
+    }
+  },
+  {
+    "id": "measurement-007",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "medium",
+    "question": "Find the area of a parallelogram with base 9 cm and perpendicular height 7 cm.",
+    "formula": "A = bh",
+    "options": ["A) 16 cm²", "B) 32 cm²", "C) 63 cm²", "D) 31.5 cm²"],
+    "correctAnswer": 2,
+    "explanation": "Using the parallelogram area formula:\n\n$$A = b \\times h$$\n$$A = 9 \\times 7$$\n$$A = 63 \\text{ cm}^2$$",
+    "points": 2,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": true,
+      "diagramType": "parallelogram",
+      "description": "Parallelogram with base 9 cm and height 7 cm"
+    }
+  },
+  {
+    "id": "measurement-008",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "medium",
+    "question": "Convert 3.2 m² to cm².",
+    "options": ["A) 320 cm²", "B) 3200 cm²", "C) 32 000 cm²", "D) 0.32 cm²"],
+    "correctAnswer": 2,
+    "explanation": "To convert square metres to square centimetres, multiply by 10,000:\n\n$$1 \\text{ m}^2 = 10\\,000 \\text{ cm}^2$$\n$$3.2 \\times 10\\,000 = 32\\,000 \\text{ cm}^2$$",
+    "points": 2,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": false
+    }
+  },
+  {
+    "id": "measurement-009",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "medium",
+    "question": "A circle has a diameter of 14 cm. Calculate its area. (Use $\\pi \\approx 3.14$)",
+    "formula": "A = \\pi r^2",
+    "options": ["A) 43.96 cm²", "B) 153.86 cm²", "C) 615.44 cm²", "D) 87.92 cm²"],
+    "correctAnswer": 1,
+    "explanation": "First, find the radius:\n\n$$r = \\frac{d}{2} = \\frac{14}{2} = 7 \\text{ cm}$$\n\nThen calculate the area:\n\n$$A = \\pi r^2$$\n$$A = 3.14 \\times 7^2$$\n$$A = 3.14 \\times 49$$\n$$A = 153.86 \\text{ cm}^2$$",
+    "points": 2,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": true,
+      "diagramType": "circle",
+      "description": "Circle with diameter 14 cm"
+    }
+  },
+  {
+    "id": "measurement-010",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "medium",
+    "question": "Find the perimeter of this composite shape consisting of a rectangle (8 m × 5 m) with a semicircle on one of the shorter sides (diameter 5 m). Give your answer correct to 1 decimal place.",
+    "options": ["A) 26.0 m", "B) 33.9 m", "C) 28.9 m", "D) 31.9 m"],
+    "correctAnswer": 2,
+    "explanation": "The perimeter consists of:\n- Two long sides: $2 \\times 8 = 16$ m\n- One short side: $5$ m\n- Semicircle circumference: $\\frac{1}{2} \\times \\pi \\times 5 \\approx 7.85$ m\n\n$$P = 16 + 5 + 7.85 = 28.85 \\approx 28.9 \\text{ m}$$",
+    "points": 3,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": true,
+      "diagramType": "composite",
+      "description": "Rectangle 8m × 5m with semicircle on 5m side"
+    }
+  },
+  {
+    "id": "measurement-011",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "medium",
+    "question": "Calculate the volume of a triangular prism with a triangular base having base 6 cm and height 4 cm, and a prism length of 10 cm.",
+    "formula": "V = \\text{base area} \\times \\text{height}",
+    "options": ["A) 240 cm³", "B) 60 cm³", "C) 120 cm³", "D) 24 cm³"],
+    "correctAnswer": 2,
+    "explanation": "First, find the area of the triangular base:\n\n$$A_{\\text{base}} = \\frac{1}{2} \\times 6 \\times 4 = 12 \\text{ cm}^2$$\n\nThen multiply by the prism length:\n\n$$V = A_{\\text{base}} \\times \\text{length}$$\n$$V = 12 \\times 10 = 120 \\text{ cm}^3$$",
+    "points": 3,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": true,
+      "diagramType": "3d-prism",
+      "description": "Triangular prism with base 6cm, height 4cm, length 10cm"
+    }
+  },
+  {
+    "id": "measurement-012",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "medium",
+    "question": "Convert 2500 mL to L.",
+    "options": ["A) 0.25 L", "B) 2.5 L", "C) 25 L", "D) 250 L"],
+    "correctAnswer": 1,
+    "explanation": "To convert millilitres to litres, divide by 1000:\n\n$$2500 \\div 1000 = 2.5 \\text{ L}$$\n\nTherefore, 2500 mL = 2.5 L.",
+    "points": 2,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": false
+    }
+  },
+  {
+    "id": "measurement-013",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "medium",
+    "question": "A cylinder has a radius of 5 cm and height of 12 cm. Calculate its volume correct to 1 decimal place. (Use $\\pi \\approx 3.14$)",
+    "formula": "V = \\pi r^2 h",
+    "options": ["A) 188.4 cm³", "B) 942.0 cm³", "C) 376.8 cm³", "D) 314.0 cm³"],
+    "correctAnswer": 1,
+    "explanation": "Using the cylinder volume formula:\n\n$$V = \\pi r^2 h$$\n$$V = 3.14 \\times 5^2 \\times 12$$\n$$V = 3.14 \\times 25 \\times 12$$\n$$V = 942.0 \\text{ cm}^3$$",
+    "points": 3,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": true,
+      "diagramType": "cylinder",
+      "description": "Cylinder with radius 5 cm and height 12 cm"
+    }
+  },
+  {
+    "id": "measurement-014",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "medium",
+    "question": "A rectangular garden measures 15 m by 9 m. A straight path 1.5 m wide runs along one long edge inside the garden. What is the perimeter of the remaining garden area?",
+    "options": ["A) 48 m", "B) 45 m", "C) 42 m", "D) 51 m"],
+    "correctAnswer": 1,
+    "explanation": "After removing the path, the garden dimensions become:\n- Length: still 15 m\n- Width: $9 - 1.5 = 7.5$ m\n\nPerimeter:\n$$P = 2(15) + 2(7.5) = 30 + 15 = 45 \\text{ m}$$",
+    "points": 3,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": true,
+      "diagramType": "composite",
+      "description": "Rectangle 15m × 9m with 1.5m path along one edge"
+    }
+  },
+  {
+    "id": "measurement-015",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "medium",
+    "question": "Find the area of a composite shape made of two rectangles: one measuring 12 cm × 8 cm and another measuring 6 cm × 5 cm attached to its side.",
+    "options": ["A) 126 cm²", "B) 96 cm²", "C) 30 cm²", "D) 156 cm²"],
+    "correctAnswer": 0,
+    "explanation": "Calculate the area of each rectangle and add:\n\n**Rectangle 1:**\n$$A_1 = 12 \\times 8 = 96 \\text{ cm}^2$$\n\n**Rectangle 2:**\n$$A_2 = 6 \\times 5 = 30 \\text{ cm}^2$$\n\n**Total area:**\n$$A = 96 + 30 = 126 \\text{ cm}^2$$",
+    "points": 3,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": true,
+      "diagramType": "composite",
+      "description": "Two rectangles: 12cm × 8cm and 6cm × 5cm joined together"
+    }
+  },
+  {
+    "id": "measurement-016",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "medium",
+    "question": "A container has a volume of 4500 cm³. Convert this to litres.",
+    "options": ["A) 0.45 L", "B) 4.5 L", "C) 45 L", "D) 450 L"],
+    "correctAnswer": 1,
+    "explanation": "To convert cm³ to litres, use the conversion:\n\n$$1000 \\text{ cm}^3 = 1 \\text{ L}$$\n\n$$4500 \\div 1000 = 4.5 \\text{ L}$$",
+    "points": 2,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": false
+    }
+  },
+  {
+    "id": "measurement-017",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "medium",
+    "question": "A swimming pool is 8 m long, 4 m wide, and 1.5 m deep. How long will it take to fill the pool if water flows at a rate of 20 litres per minute? Give your answer in hours.",
+    "options": ["A) 2 hours", "B) 40 hours", "C) 2.4 hours", "D) 400 hours"],
+    "correctAnswer": 1,
+    "explanation": "**Step 1:** Calculate the volume of the pool:\n$$V = 8 \\times 4 \\times 1.5 = 48 \\text{ m}^3$$\n\n**Step 2:** Convert to litres:\n$$48 \\times 1000 = 48\\,000 \\text{ L}$$\n\n**Step 3:** Calculate time:\n$$\\text{Time} = \\frac{48\\,000}{20} = 2\\,400 \\text{ minutes}$$\n\n**Step 4:** Convert to hours:\n$$2\\,400 \\div 60 = 40 \\text{ hours}$$",
+    "points": 3,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": true,
+      "diagramType": "3d-prism",
+      "description": "Swimming pool 8m × 4m × 1.5m"
+    }
+  },
+  {
+    "id": "measurement-018",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "medium",
+    "question": "Convert 850 cm³ to mL, then to L.",
+    "options": ["A) 850 mL, 0.85 L", "B) 85 mL, 0.085 L", "C) 8500 mL, 8.5 L", "D) 8.5 mL, 0.0085 L"],
+    "correctAnswer": 0,
+    "explanation": "**Step 1:** Convert cm³ to mL:\n$$1 \\text{ cm}^3 = 1 \\text{ mL}$$\n$$850 \\text{ cm}^3 = 850 \\text{ mL}$$\n\n**Step 2:** Convert mL to L:\n$$850 \\div 1000 = 0.85 \\text{ L}$$\n\nTherefore: 850 mL, 0.85 L",
+    "points": 2,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": false
+    }
+  },
+  {
+    "id": "measurement-019",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "medium",
+    "question": "Find the area of a composite shape consisting of a 20 m × 12 m rectangle with a 6 m × 8 m rectangular section removed from one corner.",
+    "options": ["A) 192 m²", "B) 240 m²", "C) 288 m²", "D) 48 m²"],
+    "correctAnswer": 0,
+    "explanation": "Calculate by subtracting the removed section:\n\n**Large rectangle:**\n$$A_1 = 20 \\times 12 = 240 \\text{ m}^2$$\n\n**Removed rectangle:**\n$$A_2 = 6 \\times 8 = 48 \\text{ m}^2$$\n\n**Remaining area:**\n$$A = 240 - 48 = 192 \\text{ m}^2$$",
+    "points": 3,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": true,
+      "diagramType": "composite",
+      "description": "20m × 12m rectangle with 6m × 8m section removed from corner"
+    }
+  },
+  {
+    "id": "measurement-020",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "hard",
+    "question": "A circle has a radius of 10 cm. Find the area of a sector with an angle of 72° at the centre. Give your answer in terms of $\\pi$.",
+    "formula": "A = \\frac{\\theta}{360} \\times \\pi r^2",
+    "options": ["A) $10\\pi$ cm²", "B) $20\\pi$ cm²", "C) $50\\pi$ cm²", "D) $100\\pi$ cm²"],
+    "correctAnswer": 1,
+    "explanation": "Using the sector area formula:\n\n$$A = \\frac{\\theta}{360} \\times \\pi r^2$$\n$$A = \\frac{72}{360} \\times \\pi \\times 10^2$$\n$$A = \\frac{1}{5} \\times 100\\pi$$\n$$A = 20\\pi \\text{ cm}^2$$",
+    "points": 3,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": true,
+      "diagramType": "sector",
+      "description": "Sector with radius 10 cm and angle 72°"
+    }
+  },
+  {
+    "id": "measurement-021",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "hard",
+    "question": "A trapezium has parallel sides of lengths 14 cm and 8 cm, and a perpendicular height of 6 cm. Find its area.",
+    "formula": "A = \\frac{1}{2}(a+b)h",
+    "options": ["A) 48 cm²", "B) 66 cm²", "C) 84 cm²", "D) 132 cm²"],
+    "correctAnswer": 1,
+    "explanation": "Using the trapezium area formula:\n\n$$A = \\frac{1}{2}(a + b)h$$\n$$A = \\frac{1}{2}(14 + 8) \\times 6$$\n$$A = \\frac{1}{2} \\times 22 \\times 6$$\n$$A = 11 \\times 6$$\n$$A = 66 \\text{ cm}^2$$",
+    "points": 3,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": true,
+      "diagramType": "trapezium",
+      "description": "Trapezium with parallel sides 14 cm and 8 cm, height 6 cm"
+    }
+  },
+  {
+    "id": "measurement-022",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "hard",
+    "question": "A composite shape consists of a rectangle 16 m × 10 m with two semicircles attached to opposite shorter sides (diameter 10 m each). Calculate the total area correct to 1 decimal place. (Use $\\pi \\approx 3.14$)",
+    "options": ["A) 238.5 m²", "B) 160.0 m²", "C) 317.0 m²", "D) 395.5 m²"],
+    "correctAnswer": 0,
+    "explanation": "**Rectangle area:**\n$$A_{\\text{rect}} = 16 \\times 10 = 160 \\text{ m}^2$$\n\n**Two semicircles = one full circle:**\n$$r = \\frac{10}{2} = 5 \\text{ m}$$\n$$A_{\\text{circle}} = \\pi r^2 = 3.14 \\times 25 = 78.5 \\text{ m}^2$$\n\n**Total area:**\n$$A = 160 + 78.5 = 238.5 \\text{ m}^2$$",
+    "points": 4,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": true,
+      "diagramType": "composite",
+      "description": "Rectangle 16m × 10m with semicircles (diameter 10m) on opposite ends"
+    }
+  },
+  {
+    "id": "measurement-023",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "hard",
+    "question": "A composite 3D shape consists of a rectangular prism (8 cm × 6 cm × 10 cm) with a cylinder (radius 3 cm, height 5 cm) placed on top. Calculate the total volume correct to 1 decimal place. (Use $\\pi \\approx 3.14$)",
+    "options": ["A) 480.0 cm³", "B) 621.3 cm³", "C) 141.3 cm³", "D) 338.7 cm³"],
+    "correctAnswer": 1,
+    "explanation": "**Rectangular prism volume:**\n$$V_{\\text{prism}} = 8 \\times 6 \\times 10 = 480 \\text{ cm}^3$$\n\n**Cylinder volume:**\n$$V_{\\text{cylinder}} = \\pi r^2 h$$\n$$V_{\\text{cylinder}} = 3.14 \\times 3^2 \\times 5$$\n$$V_{\\text{cylinder}} = 3.14 \\times 9 \\times 5 = 141.3 \\text{ cm}^3$$\n\n**Total volume:**\n$$V = 480 + 141.3 = 621.3 \\text{ cm}^3$$",
+    "points": 4,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": true,
+      "diagramType": "3d-composite",
+      "description": "Rectangular prism 8cm × 6cm × 10cm with cylinder (r=3cm, h=5cm) on top"
+    }
+  },
+  {
+    "id": "measurement-024",
+    "type": "multiple-choice",
+    "topic": "measurement",
+    "difficulty": "hard",
+    "question": "A water tank is in the shape of a cylinder with radius 1.2 m and height 2.5 m. It is currently filled to 75% capacity. If a pump removes water at 15 L/min, how long will it take to empty the tank completely? Give your answer in hours, correct to 1 decimal place. (Use $\\pi \\approx 3.14$)",
+    "options": ["A) 3.8 hours", "B) 5.0 hours", "C) 7.1 hours", "D) 9.4 hours"],
+    "correctAnswer": 3,
+    "explanation": "**Step 1:** Calculate total tank volume:\n$$V = \\pi r^2 h = 3.14 \\times 1.2^2 \\times 2.5$$\n$$V = 3.14 \\times 1.44 \\times 2.5 = 11.304 \\text{ m}^3$$\n\n**Step 2:** Convert to litres:\n$$11.304 \\times 1000 = 11\\,304 \\text{ L}$$\n\n**Step 3:** Calculate current volume (75% full):\n$$11\\,304 \\times 0.75 = 8\\,478 \\text{ L}$$\n\n**Step 4:** Calculate time to empty:\n$$\\text{Time} = \\frac{8\\,478}{15} = 565.2 \\text{ minutes}$$\n\n**Step 5:** Convert to hours:\n$$565.2 \\div 60 = 9.42 \\approx 9.4 \\text{ hours}$$",
+    "points": 4,
+    "graphConfig": null,
+    "visualAssets": {
+      "needsDiagram": true,
+      "diagramType": "cylinder",
+      "description": "Cylindrical water tank with radius 1.2m and height 2.5m"
+    }
+  }
+]

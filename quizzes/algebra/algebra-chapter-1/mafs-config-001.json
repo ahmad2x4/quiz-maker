@@ -1,0 +1,30 @@
+{
+  "type": "cartesian",
+  "viewBox": {
+    "x": [-3, 5],
+    "y": [-2, 16]
+  },
+  "preserveAspectRatio": true,
+  "elements": [
+    {
+      "type": "plot",
+      "function": "x => 2*x + 5",
+      "color": "#3b82f6",
+      "lineWidth": 2,
+      "label": "y = 2x + 5"
+    },
+    {
+      "type": "line",
+      "point1": [4, -2],
+      "point2": [4, 16],
+      "color": "#94a3b8",
+      "style": "dashed"
+    },
+    {
+      "type": "point",
+      "coordinates": [4, 13],
+      "label": "(4, ?)",
+      "color": "#ef4444"
+    }
+  ]
+}
