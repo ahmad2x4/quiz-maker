@@ -1,0 +1,22 @@
+{
+  "type": "cartesian",
+  "viewBox": {
+    "x": [0.5, 11.5],
+    "y": [0, 6]
+  },
+  "preserveAspectRatio": true,
+  "elements": [
+    { "type": "point", "coordinates": [2, 1], "color": "#ef4444" },
+    { "type": "point", "coordinates": [6, 1], "color": "#ef4444" },
+    { "type": "point", "coordinates": [7, 1], "color": "#ef4444" },
+    { "type": "point", "coordinates": [7, 2], "color": "#ef4444" },
+    { "type": "point", "coordinates": [8, 1], "color": "#ef4444" },
+    { "type": "point", "coordinates": [8, 2], "color": "#ef4444" },
+    { "type": "point", "coordinates": [8, 3], "color": "#ef4444" },
+    { "type": "point", "coordinates": [9, 1], "color": "#ef4444" },
+    { "type": "point", "coordinates": [9, 2], "color": "#ef4444" },
+    { "type": "point", "coordinates": [9, 3], "color": "#ef4444" },
+    { "type": "point", "coordinates": [9, 4], "color": "#ef4444" },
+    { "type": "point", "coordinates": [10, 1], "color": "#ef4444" }
+  ]
+}

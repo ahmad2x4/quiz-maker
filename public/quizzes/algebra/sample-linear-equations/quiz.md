@@ -21,7 +21,7 @@ Solve for $x$: $2x + 5 = 13$
 
 **Options:**
 - A) $x = 3$
-- B) $x = 4$ ✓
+- B) $x = 4$
 - C) $x = 8$
 - D) $x = 9$
 
@@ -52,11 +52,13 @@ Solve for $y$: $3y - 7 = 2y + 5$
 **Options:**
 - A) $y = 10$
 - B) $y = 11$
-- C) $y = 12$ ✓
+- C) $y = 12$
 - D) $y = 13$
 
 <details>
 <summary>Show Explanation</summary>
+**Correct Answer: C) $y = 12$**
+
 
 ### Solution
 
@@ -81,12 +83,14 @@ Solve for $x$: $\frac{2x + 3}{4} = \frac{x - 1}{2}$
 
 **Options:**
 - A) $x = -5$
-- B) $x = -7$ ✓
+- B) $x = -7$
 - C) $x = 5$
 - D) $x = 7$
 
 <details>
 <summary>Show Explanation</summary>
+**Correct Answer: B) $x = -7$**
+
 
 ### Solution
 

@@ -35,4 +35,4 @@ __pycache__/
 *.pyo
 
 # Source PDFs (private input materials)
-quizzes/**/*.pdf
+**/*.pdf

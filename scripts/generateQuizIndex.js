@@ -18,7 +18,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const PROJECT_ROOT = path.resolve(__dirname, '..');
-const QUIZZES_DIR = path.join(PROJECT_ROOT, 'quizzes');
+const PUBLIC_DIR = path.join(PROJECT_ROOT, 'public');
+const QUIZZES_DIR = path.join(PUBLIC_DIR, 'quizzes');
 const OUTPUT_FILE = path.join(PROJECT_ROOT, 'src', 'data', 'quizIndex.ts');
 
 const TOPICS = ['algebra', 'geometry', 'trigonometry', 'calculus', 'statistics', 'functions', 'measurement'];
@@ -66,8 +67,8 @@ function extractMetadata(filePath) {
       console.warn(`Warning: Unknown topic "${topic}" for ${filePath}`);
     }
 
-    // Convert absolute path to relative path for import
-    const relativeFilePath = '/' + path.relative(PROJECT_ROOT, filePath).replace(/\\/g, '/');
+    // Convert absolute path to URL path (relative to public/ which is served at root)
+    const relativeFilePath = '/' + path.relative(PUBLIC_DIR, filePath).replace(/\\/g, '/');
 
     return {
       id: data.id || '',

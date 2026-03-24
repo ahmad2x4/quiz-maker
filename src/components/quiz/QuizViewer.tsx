@@ -35,8 +35,8 @@ export function QuizViewer({ quiz, onBack }: QuizViewerProps) {
         setLoading(true);
         setError(null);
 
-        // Fetch the quiz markdown file
-        const response = await fetch(quiz.filePath);
+        // Fetch the quiz markdown file (BASE_URL handles /quiz-maker/ prefix on GitHub Pages)
+        const response = await fetch(import.meta.env.BASE_URL + quiz.filePath.replace(/^\//, ''));
 
         if (!response.ok) {
           throw new Error(`Failed to load quiz: ${response.statusText}`);
