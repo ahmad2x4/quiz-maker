@@ -55,7 +55,7 @@ export function MafsRenderer({ config, className = '' }: MafsRendererProps) {
   const parsedConfig: MafsConfig = typeof config === 'string' ? JSON.parse(config) : config;
 
   const viewBox = parsedConfig.viewBox || { x: [-10, 10], y: [-10, 10] };
-  const preserveAspectRatio = parsedConfig.preserveAspectRatio ?? true;
+  const preserveAspectRatio = parsedConfig.preserveAspectRatio ? 'contain' as const : false as const;
 
   // Evaluate function strings to actual functions
   const evaluateFunction = (fnString: string): ((x: number) => number) => {
@@ -131,7 +131,7 @@ export function MafsRenderer({ config, className = '' }: MafsRendererProps) {
             center={element.center}
             radius={element.radius}
             strokeStyle={element.style || 'solid'}
-            color={element.color || Theme.purple}
+            color={element.color || Theme.violet}
             fillOpacity={element.filled ? (element.fillOpacity || 0.2) : 0}
           />
         );

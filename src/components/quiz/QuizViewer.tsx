@@ -12,7 +12,7 @@ function parseFrontmatter(text: string): string {
 
   if (match) {
     // Return content after frontmatter
-    return match[2];
+    return match[2] ?? '';
   }
 
   // No frontmatter found, return original text

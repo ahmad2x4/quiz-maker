@@ -73,7 +73,7 @@ function extractMetadata(filePath) {
       id: data.id || '',
       title: data.title || '',
       topic: data.topic || topic,
-      difficulty: data.difficulty || 'medium',
+      difficulty: ['easy', 'medium', 'hard'].includes(data.difficulty) ? data.difficulty : 'medium',
       questionCount: data.questionCount || 0,
       createdFrom: data.createdFrom,
       dateGenerated: data.dateGenerated || new Date().toISOString().split('T')[0],

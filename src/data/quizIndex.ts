@@ -85,7 +85,7 @@ export const quizzes: QuizMetadata[] = [
     "id": "measurement-year-8-exam-001",
     "title": "Year 8 Measurement Exam - Area and Volume",
     "topic": "measurement",
-    "difficulty": "mixed",
+    "difficulty": "hard",
     "questionCount": 24,
     "createdFrom": "Math Chapter 5 Area and Volume.pdf, Year 8 Task 4 past papers.pdf",
     "dateGenerated": "2025-11-02",

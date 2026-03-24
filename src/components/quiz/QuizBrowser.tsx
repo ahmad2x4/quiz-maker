@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import { quizzes, getQuizzesByTopic, getQuizzesByDifficulty, searchQuizzes, topics, type QuizMetadata } from '@/data/quizIndex';
+import { quizzes, getQuizzesByTopic, searchQuizzes, topics, type QuizMetadata } from '@/data/quizIndex';
 
 interface QuizBrowserProps {
   onSelectQuiz?: (quiz: QuizMetadata) => void;
