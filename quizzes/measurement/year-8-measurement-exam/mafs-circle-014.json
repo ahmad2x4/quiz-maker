@@ -1,0 +1,38 @@
+{
+  "type": "cartesian",
+  "viewBox": {
+    "x": [-10, 10],
+    "y": [-10, 10]
+  },
+  "preserveAspectRatio": true,
+  "elements": [
+    {
+      "type": "circle",
+      "center": [0, 0],
+      "radius": 7,
+      "color": "#3b82f6",
+      "filled": false,
+      "lineWidth": 2
+    },
+    {
+      "type": "line",
+      "point1": [-7, 0],
+      "point2": [7, 0],
+      "color": "#ef4444",
+      "lineWidth": 2,
+      "style": "solid"
+    },
+    {
+      "type": "point",
+      "coordinates": [0, 0],
+      "label": "O",
+      "color": "#000000"
+    },
+    {
+      "type": "text",
+      "position": [0, -2],
+      "text": "d = 14 cm",
+      "color": "#ef4444"
+    }
+  ]
+}

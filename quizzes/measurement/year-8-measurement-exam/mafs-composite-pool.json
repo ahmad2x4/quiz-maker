@@ -1,0 +1,36 @@
+{
+  "type": "cartesian",
+  "viewBox": {
+    "x": [-1, 9],
+    "y": [-1, 5]
+  },
+  "preserveAspectRatio": true,
+  "elements": [
+    {
+      "type": "polygon",
+      "points": [[0, 0], [8, 0], [8, 4], [0, 4]],
+      "color": "#3b82f6",
+      "filled": true,
+      "fillOpacity": 0.2,
+      "lineWidth": 2
+    },
+    {
+      "type": "text",
+      "position": [4, 4.5],
+      "text": "8 m",
+      "color": "#000000"
+    },
+    {
+      "type": "text",
+      "position": [-0.5, 2],
+      "text": "4 m",
+      "color": "#000000"
+    },
+    {
+      "type": "text",
+      "position": [1, 0.5],
+      "text": "1.5 m deep",
+      "color": "#3b82f6"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+# Core dependencies
+anthropic>=0.39.0
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+
+# PDF processing
+pypdf2>=3.0.1
+pdfplumber>=0.11.0
+pillow>=10.0.0
+
+# Math and visualization
+sympy>=1.13
+matplotlib>=3.8.0
+numpy>=1.26.0
+
+# Utilities
+python-frontmatter>=1.1.0
+requests>=2.31.0

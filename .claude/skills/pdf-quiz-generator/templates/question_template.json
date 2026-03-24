@@ -1,0 +1,31 @@
+{
+  "id": "unique-id",
+  "type": "multiple-choice | true-false | numeric | graph-interactive",
+  "topic": "algebra | geometry | trigonometry | calculus | statistics | functions",
+  "difficulty": "easy | medium | hard",
+  "question": "Question text with $LaTeX$ formulas",
+  "formula": "Main formula if applicable (LaTeX)",
+  "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+  "correctAnswer": 0,
+  "explanation": "Detailed explanation with step-by-step solution",
+  "points": 10,
+  "graphConfig": {
+    "type": "cartesian | polar | geometry",
+    "xRange": [-10, 10],
+    "yRange": [-10, 10],
+    "functions": ["f(x) = x^2"],
+    "shapes": [
+      {
+        "type": "point | line | circle | polygon | vector",
+        "points": [[0, 0]],
+        "label": "A",
+        "color": "blue"
+      }
+    ]
+  },
+  "visualAssets": {
+    "needsDiagram": false,
+    "diagramType": "graph | geometry | flowchart | table",
+    "description": "Description of visual needed"
+  }
+}

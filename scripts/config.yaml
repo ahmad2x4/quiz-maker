@@ -1,0 +1,71 @@
+# Quiz Generator Configuration
+
+# Claude API Configuration
+api:
+  # Set ANTHROPIC_API_KEY environment variable or add key here
+  model: "claude-sonnet-4-5-20250929"
+  max_tokens: 8192
+  temperature: 0.7
+
+# Output paths (relative to project root)
+paths:
+  quizzes_dir: "./quizzes"
+  temp_dir: "./scripts/temp"
+
+# Quiz generation defaults
+defaults:
+  questions_per_quiz: 10
+  difficulty_distribution:
+    easy: 0.3
+    medium: 0.5
+    hard: 0.2
+
+  # Question type distribution
+  question_types:
+    multiple-choice: 0.6
+    true-false: 0.2
+    numeric: 0.1
+    graph-interactive: 0.1
+
+# Visual generation settings
+visuals:
+  # Image formats to generate
+  formats: ["png", "svg"]
+
+  # Graph settings
+  graph:
+    dpi: 150
+    figsize: [8, 6]
+    style: "seaborn-v0_8-darkgrid"
+
+  # Mafs.js default viewport
+  mafs_defaults:
+    x_range: [-10, 10]
+    y_range: [-10, 10]
+    preserve_aspect_ratio: true
+
+# PDF processing settings
+pdf:
+  # Maximum pages to process (0 = unlimited)
+  max_pages: 0
+
+  # Extract images from PDF
+  extract_images: true
+
+  # Image resolution for extraction
+  image_dpi: 300
+
+# Topics and their aliases
+topics:
+  algebra:
+    aliases: ["linear equations", "quadratic", "polynomials", "systems"]
+  geometry:
+    aliases: ["shapes", "angles", "triangles", "circles", "polygons"]
+  trigonometry:
+    aliases: ["sine", "cosine", "tangent", "trig identities"]
+  calculus:
+    aliases: ["derivatives", "integrals", "limits", "differential"]
+  statistics:
+    aliases: ["probability", "mean", "median", "standard deviation"]
+  functions:
+    aliases: ["domain", "range", "transformations", "composition"]
